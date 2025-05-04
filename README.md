@@ -62,7 +62,7 @@ GET/api/v1/aas/{asset_id}/submodels/time-series
 ###  Example Response
 ```json
 {
-  "asset_id": "machine123",
+  "asset_id": "sensor_1",
   "submodel": {
     "id": "urn:uuid:123...",
     "submodelElements": [
