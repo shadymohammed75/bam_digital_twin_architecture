@@ -73,7 +73,7 @@ GET/api/v1/aas/{asset_id}/submodels/time-series
 ### ▶ Test the Endpoint
 
 1. Click the **"Try it out"** button.
-2. Enter an asset ID, for example: `machine123`
+2. Enter an asset ID, for example: `sensor_1`
 3. Click **"Execute"**
 4. View the response in the **"Server response"** section.
 
