@@ -16,22 +16,7 @@ Implementation of a standards-compliant Asset Administration Shell (AAS) submode
 
 ## Project Structure
 
-bam-aas-timeseries/
-├── data/ # Data files
-│ ├── sample_timeseries.csv # Example input CSV
-│ ├── IDTA_02008-1-1_Template...json # Official template
-│ ├── TimeSeriesDataInstance.json # Generated output
-│ └── sensors.db # database for storing data externally
-├── src/ # Source code
-│ ├── Builder.py # Submodel builder
-│ ├── db_writer.py # SQLite storage
-│ ├── api.py # FastAPI endpoints
-│ └── main.py # Main pipeline
-├── tests/ # Unit tests
-│ ├── test_builder.py # Builder tests
-│ └── init.py
-└── docs/ # Documentation
-└── architecture.pdf # Architecture slides
+<pre> ## 📁 Project Structure ``` bam-aas-timeseries/ ├── data/ # Data files │ ├── sample_timeseries.csv # Example input CSV │ ├── IDTA_02008-1-1_Template...json # Official template │ ├── TimeSeriesDataInstance.json # Generated output │ └── sensors.db # SQLite database ├── src/ # Source code │ ├── Builder.py # Submodel builder │ ├── db_writer.py # SQLite storage │ ├── api.py # FastAPI endpoints │ └── main.py # Main pipeline ├── tests/ # Unit tests │ ├── test_builder.py # Builder tests │ └── __init__.py ├── docs/ # Documentation │ └── architecture.pdf # Architecture slides ``` </pre>
 
 ## Builder Module (`Builder.py`)
 
