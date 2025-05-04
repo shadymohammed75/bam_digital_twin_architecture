@@ -78,7 +78,7 @@ GET/api/v1/aas/{asset_id}/submodels/time-series
     ]
   }
 }
-
+```
 ## Test Suite Documentation
 
 ### Test File: `tests/test_builder.py`
