@@ -1,0 +1,224 @@
+{
+  "idShort": "TestTemplate",
+  "id": "urn:uuid:9bf6eeb1-052b-4f66-8611-f8ea81a3b82b",
+  "kind": "Instance",
+  "submodelElements": [
+    {
+      "idShort": "sensor_1",
+      "value": [
+        {
+          "idShort": "Name",
+          "valueType": "xs:string",
+          "value": "sensor_1",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Description",
+          "valueType": "xs:string",
+          "value": "temp",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "RecordCount",
+          "valueType": "xs:int",
+          "value": "2",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "StartTime",
+          "valueType": "xs:dateTime",
+          "value": "2025-01-01T00:00:00+00:00",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "EndTime",
+          "valueType": "xs:dateTime",
+          "value": "2025-01-01T00:01:00+00:00",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "SamplingInterval",
+          "valueType": "xs:int",
+          "value": "60",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Records",
+          "value": [
+            {
+              "idShort": "Record",
+              "value": [
+                {
+                  "idShort": "Time",
+                  "valueType": "xs:dateTime",
+                  "value": "2025-01-01T00:00:00",
+                  "modelType": "Property"
+                },
+                {
+                  "idShort": "Value",
+                  "valueType": "xs:double",
+                  "value": "21.5",
+                  "modelType": "Property"
+                }
+              ],
+              "modelType": "SubmodelElementCollection"
+            },
+            {
+              "idShort": "Record",
+              "value": [
+                {
+                  "idShort": "Time",
+                  "valueType": "xs:dateTime",
+                  "value": "2025-01-01T00:01:00",
+                  "modelType": "Property"
+                },
+                {
+                  "idShort": "Value",
+                  "valueType": "xs:double",
+                  "value": "22.0",
+                  "modelType": "Property"
+                }
+              ],
+              "modelType": "SubmodelElementCollection"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        }
+      ],
+      "modelType": "SubmodelElementCollection"
+    },
+    {
+      "idShort": "sensor_2",
+      "value": [
+        {
+          "idShort": "Name",
+          "valueType": "xs:string",
+          "value": "sensor_2",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Description",
+          "valueType": "xs:string",
+          "value": "humi",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "RecordCount",
+          "valueType": "xs:int",
+          "value": "1",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "StartTime",
+          "valueType": "xs:dateTime",
+          "value": "2025-01-01T00:00:00+00:00",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "EndTime",
+          "valueType": "xs:dateTime",
+          "value": "2025-01-01T00:00:00+00:00",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "SamplingInterval",
+          "valueType": "xs:int",
+          "value": "0",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Records",
+          "value": [
+            {
+              "idShort": "Record",
+              "value": [
+                {
+                  "idShort": "Time",
+                  "valueType": "xs:dateTime",
+                  "value": "2025-01-01T00:00:00",
+                  "modelType": "Property"
+                },
+                {
+                  "idShort": "Value",
+                  "valueType": "xs:double",
+                  "value": "45.0",
+                  "modelType": "Property"
+                }
+              ],
+              "modelType": "SubmodelElementCollection"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        }
+      ],
+      "modelType": "SubmodelElementCollection"
+    },
+    {
+      "idShort": "sensor_3",
+      "value": [
+        {
+          "idShort": "Name",
+          "valueType": "xs:string",
+          "value": "sensor_3",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Description",
+          "valueType": "xs:string",
+          "value": "light",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "RecordCount",
+          "valueType": "xs:int",
+          "value": "1",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "StartTime",
+          "valueType": "xs:dateTime",
+          "value": "2025-01-01T00:00:00+00:00",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "EndTime",
+          "valueType": "xs:dateTime",
+          "value": "2025-01-01T00:00:00+00:00",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "SamplingInterval",
+          "valueType": "xs:int",
+          "value": "0",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Records",
+          "value": [
+            {
+              "idShort": "Record",
+              "value": [
+                {
+                  "idShort": "Time",
+                  "valueType": "xs:dateTime",
+                  "value": "2025-01-01T00:00:00",
+                  "modelType": "Property"
+                },
+                {
+                  "idShort": "Value",
+                  "valueType": "xs:double",
+                  "value": "850.0",
+                  "modelType": "Property"
+                }
+              ],
+              "modelType": "SubmodelElementCollection"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        }
+      ],
+      "modelType": "SubmodelElementCollection"
+    }
+  ],
+  "modelType": "Submodel"
+}
