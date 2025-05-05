@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94d12c3b-2c50-40be-b9f7-acb74c0eeb6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BAM_Digital_Twin_Architecture.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/IDTA_02008-1-1_Template_TimeSeriesData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/TimeSeriesDataInstance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sample_timeseries_sleep10ms.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sensors.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/architecture_diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api_json_export.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db_writer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/TimeSeriesAAS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TimeSeriesDataInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sensors.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/sensors.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api_json_export.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_json_export.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/dell/PycharmProjects/bam-aas-timeseries/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -300,23 +288,94 @@
       <updated>1746017992124</updated>
       <workItem from="1746017993227" duration="452000" />
       <workItem from="1746096935319" duration="16159000" />
-      <workItem from="1746227544710" duration="26048000" />
+      <workItem from="1746227544710" duration="34524000" />
     </task>
+    <task id="LOCAL-00001" summary="enhance the api">
+      <option name="closed" value="true" />
+      <created>1746405817038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746405817038</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changing the path for new json path">
+      <option name="closed" value="true" />
+      <created>1746405849353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746405849353</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first endpoint">
+      <option name="closed" value="true" />
+      <created>1746405878963</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746405878963</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2nd endpoint for the api">
+      <option name="closed" value="true" />
+      <created>1746405897550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746405897550</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-">
+      <option name="closed" value="true" />
+      <created>1746405912224</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746405912224</updated>
+    </task>
+    <task id="LOCAL-00006" summary="enhance">
+      <option name="closed" value="true" />
+      <created>1746406432319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746406432319</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new acces for the api endpoints">
+      <option name="closed" value="true" />
+      <created>1746407788622</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746407788622</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="enhance the api" />
+    <MESSAGE value="changing the path for new json path" />
+    <MESSAGE value="first endpoint" />
+    <MESSAGE value="2nd endpoint for the api" />
+    <MESSAGE value="-" />
+    <MESSAGE value="enhance" />
+    <MESSAGE value="new acces for the api endpoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="new acces for the api endpoints" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bam_aas_timeseries$.coverage" NAME=" Coverage Results" MODIFIED="1746355062907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/BAM_Digital_Twin_Architecture$api_json_export.coverage" NAME="api_json_export Coverage Results" MODIFIED="1746406433371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/bam_aas_timeseries$api_json_export.coverage" NAME="api_json_export Coverage Results" MODIFIED="1746353698556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/bam_aas_timeseries$models.coverage" NAME="models Coverage Results" MODIFIED="1746315078085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/bam_aas_timeseries$api.coverage" NAME="api Coverage Results" MODIFIED="1746352521380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/bam_aas_timeseries$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1746318868660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/Lib/site-packages/aas_core3" />
+    <SUITE FILE_PATH="coverage/BAM_Digital_Twin_Architecture$.coverage" NAME=" Coverage Results" MODIFIED="1746401888052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/bam_aas_timeseries$test_schema.coverage" NAME="test_schema Coverage Results" MODIFIED="1746314345181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/bam_aas_timeseries$main.coverage" NAME="main Coverage Results" MODIFIED="1746351829242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/bam_aas_timeseries$handeling_new_csv.coverage" NAME="handeling_new_csv Coverage Results" MODIFIED="1746180988505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/bam_aas_timeseries$db_writer.coverage" NAME="db_writer Coverage Results" MODIFIED="1746311235726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/bam_aas_timeseries$.coverage" NAME=" Coverage Results" MODIFIED="1746355062907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/bam_aas_timeseries$api_json_export.coverage" NAME="api_json_export Coverage Results" MODIFIED="1746353698556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/bam_aas_timeseries$models.coverage" NAME="models Coverage Results" MODIFIED="1746315078085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/bam_aas_timeseries$api.coverage" NAME="api Coverage Results" MODIFIED="1746352521380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/BAM_Digital_Twin_Architecture$Builder.coverage" NAME="Builder Coverage Results" MODIFIED="1746404681724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/BAM_Digital_Twin_Architecture$main.coverage" NAME="main Coverage Results" MODIFIED="1746404685000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/bam_aas_timeseries$Builder.coverage" NAME="Builder Coverage Results" MODIFIED="1746354984717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/bam_aas_timeseries$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1746318868660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/Lib/site-packages/aas_core3" />
   </component>
 </project>

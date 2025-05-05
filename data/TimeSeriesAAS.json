@@ -1,0 +1,499 @@
+{
+  "assetAdministrationShells": [
+    {
+      "idShort": "TimeSeriesAAS",
+      "id": "https://admin-shell.io/idta/aas/TimeSeries/1/1",
+      "modelType": "AssetAdministrationShell",
+      "assetInformation": {
+        "assetKind": "Type",
+        "globalAssetId": "https://admin-shell.io/idta/asset/TimeSeries/1/1",
+        "assetType": "Type"
+      },
+      "submodels": [
+        {
+          "type": "ModelReference",
+          "keys": [
+            {
+              "type": "Submodel",
+              "value": "https://admin-shell.io/idta/submodel/TimeSeries/1/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "submodels": [
+    {
+      "idShort": "TimeSeriesData",
+      "id": "https://admin-shell.io/idta/submodel/TimeSeries/1/1",
+      "modelType": "Submodel",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/idta/SubmodelTemplate/TimeSeries/1/1"
+          }
+        ]
+      },
+      "submodelElements": [
+        {
+          "idShort": "sensor_1",
+          "modelType": "SubmodelElementCollection",
+          "value": [
+            {
+              "idShort": "Name",
+              "valueType": "xs:string",
+              "value": "sensor_1",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "Description",
+              "valueType": "xs:string",
+              "value": "Temperature sensor in degrees Celsius",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "RecordCount",
+              "valueType": "xs:int",
+              "value": "10",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "StartTime",
+              "valueType": "xs:dateTime",
+              "value": "2025-04-01T00:00:00Z",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "EndTime",
+              "valueType": "xs:dateTime",
+              "value": "2025-04-01T00:09:00Z",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "SamplingInterval",
+              "valueType": "xs:int",
+              "value": "60",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "Records",
+              "modelType": "SubmodelElementCollection",
+              "value": [
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:00:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "21.4",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:01:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "21.5",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:02:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "21.6",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:03:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "21.7",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:04:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "21.8",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:05:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "21.9",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:06:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "22.0",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:07:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "22.1",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:08:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "22.2",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:09:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "22.3",
+                      "modelType": "Property"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "idShort": "sensor_2",
+          "modelType": "SubmodelElementCollection",
+          "value": [
+            {
+              "idShort": "Name",
+              "valueType": "xs:string",
+              "value": "sensor_2",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "Description",
+              "valueType": "xs:string",
+              "value": "Pressure sensor in kPa",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "RecordCount",
+              "valueType": "xs:int",
+              "value": "10",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "StartTime",
+              "valueType": "xs:dateTime",
+              "value": "2025-04-01T00:00:00Z",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "EndTime",
+              "valueType": "xs:dateTime",
+              "value": "2025-04-01T00:09:00Z",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "SamplingInterval",
+              "valueType": "xs:int",
+              "value": "60",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "Records",
+              "modelType": "SubmodelElementCollection",
+              "value": [
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:00:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "101.2",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:01:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "101.25",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:02:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "101.3",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:03:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "101.35",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:04:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "101.4",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:05:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "101.45",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:06:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "101.5",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:07:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "101.55",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:08:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "101.6",
+                      "modelType": "Property"
+                    }
+                  ]
+                },
+                {
+                  "idShort": "Record",
+                  "modelType": "SubmodelElementCollection",
+                  "value": [
+                    {
+                      "idShort": "Time",
+                      "valueType": "xs:dateTime",
+                      "value": "2025-04-01T00:09:00Z",
+                      "modelType": "Property"
+                    },
+                    {
+                      "idShort": "Value",
+                      "valueType": "xs:double",
+                      "value": "101.65",
+                      "modelType": "Property"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
