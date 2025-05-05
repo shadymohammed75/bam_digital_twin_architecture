@@ -121,6 +121,6 @@ pytest tests/test_builder.py -v
 
 
 # acces the api endpoints
-
+0- python -m uvicorn src.api_json_export:app --reload
 1- http://127.0.0.1:8000/api/v1/aas/sensor_1/submodels/time-series
 2- http://127.0.0.1:8000/docs#/
