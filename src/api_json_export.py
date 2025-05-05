@@ -14,7 +14,17 @@ AAS_JSON_PATH = Path(r"C:\Users\dell\PycharmProjects\bam-aas-timeseries\data\Tim
 # Define the path to your JSON file
 AAS_JSON_PATH = Path(r"C:\Users\dell\PycharmProjects\bam-aas-timeseries\data\TimeSeriesAAS.json")
 
-
+# Add this new root endpoint
+@app.get("/")
+def read_root():
+    return {
+        "message": "AAS Time Series API is running",
+        "docs": "/docs",
+        "endpoints": {
+            "get_submodel": "/api/v1/aas/{asset_id}/submodels/time-series",
+            "download_submodel": "/api/v1/aas/{asset_id}/submodels/time-series/download"
+        }
+    }
 @app.get("/api/v1/aas/{asset_id}/submodels/time-series",
          summary="Get Time Series Submodel",
          description="Returns the complete AAS submodel in JSON format")
