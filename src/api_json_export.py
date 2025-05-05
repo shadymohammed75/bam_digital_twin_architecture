@@ -11,6 +11,8 @@ app = FastAPI(
 # Define the path to use already generated AAS submodel JSON
 AAS_JSON_PATH = Path(r"C:\Users\dell\PycharmProjects\bam-aas-timeseries\data\TimeSeriesDataInstance.json")
 
+# Define the path to your JSON file
+AAS_JSON_PATH = Path(r"C:\Users\dell\PycharmProjects\bam-aas-timeseries\data\TimeSeriesAAS.json")
 
 @app.get("/api/v1/aas/{asset_id}/submodels/time-series")
 def get_submodel(asset_id: str):
