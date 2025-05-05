@@ -14,24 +14,6 @@ Implementation of a standards-compliant Asset Administration Shell (AAS) submode
 - 📊 Time series data statistics calculation
 - ✅ IDTA 02008-1-1 standards compliant
 
-## Project Structure
-
-bam-aas-timeseries/
-├── data/ # Data files
-│ ├── sample_timeseries.csv # Example input CSV
-│ ├── IDTA_02008-1-1_Template...json # Official template
-│ ├── TimeSeriesDataInstance.json # Generated output
-│ └── sensors.db # database for storing data externally
-├── src/ # Source code
-│ ├── Builder.py # Submodel builder
-│ ├── db_writer.py # SQLite storage
-│ ├── api.py # FastAPI endpoints
-│ └── main.py # Main pipeline
-├── tests/ # Unit tests
-│ ├── test_builder.py # Builder tests
-│ └── init.py
-└── docs/ # Documentation
-└── architecture.pdf # Architecture slides
 
 ## Builder Module (`Builder.py`)
 
@@ -73,14 +55,14 @@ GET/api/v1/aas/{asset_id}/submodels/time-series
 ### ▶ Test the Endpoint
 
 1. Click the **"Try it out"** button.
-2. Enter an asset ID, for example: `machine123`
+2. Enter an asset ID, for example: `sensor_1`
 3. Click **"Execute"**
 4. View the response in the **"Server response"** section.
 
 ###  Example Response
 ```json
 {
-  "asset_id": "machine123",
+  "asset_id": "sensor_1",
   "submodel": {
     "id": "urn:uuid:123...",
     "submodelElements": [
@@ -96,7 +78,7 @@ GET/api/v1/aas/{asset_id}/submodels/time-series
     ]
   }
 }
-
+```
 ## Test Suite Documentation
 
 ### Test File: `tests/test_builder.py`
