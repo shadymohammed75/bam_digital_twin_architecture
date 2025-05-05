@@ -2,7 +2,11 @@ from fastapi import FastAPI, HTTPException
 from pathlib import Path
 import json
 
-app = FastAPI(title="AAS JSON Export API", version="1.0")
+app = FastAPI(
+    title="AAS JSON Export API",
+    version="1.0",
+    description="API for accessing Asset Administration Shell Time Series Data"
+)
 
 # Define the path to use already generated AAS submodel JSON
 AAS_JSON_PATH = Path(r"C:\Users\dell\PycharmProjects\bam-aas-timeseries\data\TimeSeriesDataInstance.json")
