@@ -29,3 +29,19 @@ def get_submodel(asset_id: str):
         "asset_id": asset_id,
         "submodel": submodel
     }
+
+
+@app.get("/api/v1/aas/{asset_id}/submodels/time-series/download",
+         summary="Download Time Series Submodel",
+         description="Downloads the complete AAS submodel as a JSON file",
+         response_class=FileResponse)
+def download_submodel(asset_id: str):
+    """Endpoint to download the JSON file directly"""
+    if not AAS_JSON_PATH.exists():
+        raise HTTPException(status_code=404, detail="AAS Submodel JSON file not found.")
+
+    return FileResponse(
+        AAS_JSON_PATH,
+        media_type="application/json",
+        filename=f"TimeSeriesAAS_{asset_id}.json"
+    )
