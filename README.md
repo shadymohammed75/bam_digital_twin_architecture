@@ -136,3 +136,9 @@ This test suite validates the core functionality of the Builder component, ensur
 #### How to Run:
 ```bash
 pytest tests/test_builder.py -v
+
+
+# acces the api endpoints
+
+1- http://127.0.0.1:8000/api/v1/aas/sensor_1/submodels/time-series
+2- http://127.0.0.1:8000/docs#/
