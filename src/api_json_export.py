@@ -19,6 +19,7 @@ AAS_JSON_PATH = Path(r"C:\Users\dell\PycharmProjects\bam-aas-timeseries\data\Tim
          summary="Get Time Series Submodel",
          description="Returns the complete AAS submodel in JSON format")
 def get_submodel(asset_id: str):
+    """Endpoint to get the complete submodel JSON"""
     if not AAS_JSON_PATH.exists():
         raise HTTPException(status_code=404, detail="AAS Submodel JSON file not found.")
 
